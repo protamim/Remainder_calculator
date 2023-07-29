@@ -18,10 +18,10 @@ btn.addEventListener('click', function(divideNumber, byNumber){
     // Output
     var print = document.getElementById('print')
     print.style.background = '#000';
-    print.innerHTML = `The number you divide is: <span style="color:#3cffd4">${divideNumber}</span> <br>
-    The number you divide by is: <span style="color:#3cffd4">${byNumber}</span>, <br> 
-    and divide result is: <span style="color:#3cffd4">${divide.toFixed(2)}</span>. <br>
-    So remainder is: <span style="color:#ffeb3b">${remainder}</span>`;
+    print.innerHTML = `The number you divided is: <span style="color:#3cffd4">${divideNumber}</span> <br>
+    The number you divided by is: <span style="color:#3cffd4">${byNumber}</span>, <br> 
+    Division result is: <span style="color:#3cffd4">${divide.toFixed(2)}</span>. <br>
+    The remainder is: <span style="color:#ffeb3b">${remainder}</span>`;
 });
 // This function returns the calculation
 function myFunction (divideNumber, byNumber) {
