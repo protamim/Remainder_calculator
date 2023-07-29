@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remainder calculator | javaScript</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        body {
+            padding: 0 16px;
+            min-height: 100vh;
+            display:flex;flex-direction:column;justify-content:center;align-items:center;gap:1.4rem;
+           
+        }
+        input {
+            outline: none;
+            border: 1px solid gray;
+            padding: 12px 8px;
+            font-size: 1.2rem;
+        }
+        label {
+            font-size: 1.2rem;
+        }
+        #btn {
+            background-color: transparent;
+            border: 1px solid gold;
+            padding: 10px 14px;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        #btn:hover {
+            background-color: gold;
+            cursor: pointer;
+        }
+        #print {
+        text-align: center;
+        color: #fff;
+        font-size: 1.4rem;
+        padding: 8px 26px;
+        border-radius: 12px;
+        line-height: 2.1rem;
+       }
+    </style>
+</head>
+<body>
+    <h1>Remainder Calculator</h1>
+    <label for="divideNumber">Enter the number you want to divide.</label>
+    <input type="text" id="divideNumber">
+    <label for="byNumber">Enter the number you want to divide by.</label>
+    <input type="text" id="byNumber">
+    <button id="btn">Calculate Remainder</button>
+    <p id="print"></p>
+
+    <script src="problem3.js"></script>
+</body>
+</html>
